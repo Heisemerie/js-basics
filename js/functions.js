@@ -42,7 +42,7 @@ const person2 = {
   firstName: "Chiemerie",
   lastName: "Mbah",
   get fullName() {
-    return `${person2.firstName} ${person2.lastName}`;
+    return `${person2.firstName} ${person2.lastName}`; //Getters and setters allow you to define Object Accessors (Computed Properties).
   },
   set fullName(value) {
     const parts = value.split(" ");
